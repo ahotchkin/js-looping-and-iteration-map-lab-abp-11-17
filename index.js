@@ -1,6 +1,6 @@
 // Code your solution in this file.
 
-drivers.map(function lowerCaseDrivers(){
+drivers.map(function (lowerCaseDrivers){
   return Object.assign({}, {drivers.toLowerCase})
 })
 
