@@ -1,7 +1,7 @@
 // Code your solution in this file.
 
 drivers.map(function (lowerCaseDrivers){
-  return Object.assign({}, {drivers.toLowerCase})
+  return drivers.toLowerCase)
 })
 
 // newEngineers.map(function (eng) {
