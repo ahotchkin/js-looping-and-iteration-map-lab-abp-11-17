@@ -1,9 +1,6 @@
 // Code your solution in this file.
-
-drivers.map(function (lowerCaseDrivers){
-  return drivers.toLowerCase)
+function lowerCaseDrivers(array){
+  return array.map(function(drivers)){
+    return drivers.toLowerCase
+  }
 }
-
-// newEngineers.map(function (eng) {
-//   return Object.assign({}, eng, { equipment: 'Laptop' });
-// 	});
