@@ -6,8 +6,6 @@ function lowerCaseDrivers(array){
 }
 
 function nameToAttributes(names){
-  debugger
-  
   return names.map(function(name){
     let fName = name.split(" ")[0]
     let lName = name.split(" ")[1]
@@ -15,8 +13,11 @@ function nameToAttributes(names){
   })
 }
 
-function attributesToPhrase(drivers){
+function attributesToPhrase(names, hometowns){
   return drivers.map(function(driver){
     return `${name} is from ${hometown}`
   })
 }
+
+  // { name: 'Bobby',   hometown: 'Pittsburgh'  }
+  //   'Bobby is from Pittsburgh'
