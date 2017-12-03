@@ -4,3 +4,9 @@ function lowerCaseDrivers(array){
     return drivers.toLowerCase()
   })
 }
+
+function nameToAttributes(array){
+  return array.map(function(drivers){
+    return drives.firstName drivers.lastName
+  })
+}
